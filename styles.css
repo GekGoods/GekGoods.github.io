@@ -19,7 +19,7 @@ a { color: var(--brand-dark); }
 a:hover { color: var(--brand); }
 .skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 10; padding: .65rem 1rem; border-radius: 999px; background: var(--ink); color: #fff; }
 .skip-link:focus { top: 1rem; }
-.site-header { position: sticky; top: 0; z-index: 5; background: rgba(237,237,235,.94); border-bottom: 1px solid rgba(213,225,229,.85); backdrop-filter: blur(15px); }
+.site-header { position: sticky; top: 0; z-index: 5; background: rgba(237,237,235,.94); border-bottom: 1px solid rgba(185,203,209,.85); backdrop-filter: blur(15px); }
 .header-inner, .footer-inner, .container { width: min(calc(100% - 2.5rem), var(--max)); margin: 0 auto; }
 .header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--ink); text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
@@ -31,7 +31,7 @@ a:hover { color: var(--brand); }
 .site-nav a { color: var(--muted); text-decoration: none; font-size: .94rem; font-weight: 650; }
 .site-nav a:hover, .site-nav a[aria-current=page] { color: var(--brand-dark); }
 main { overflow: hidden; }
-.hero { position: relative; padding: 7rem 0 5rem; background: radial-gradient(circle at 85% 10%, rgba(244,184,95,.24), transparent 28rem), linear-gradient(140deg,#eff9f8 0%,#fbfdfd 62%); }
+.hero { position: relative; padding: 7rem 0 5rem; background: radial-gradient(circle at 85% 10%, rgba(134,197,227,.28), transparent 28rem), linear-gradient(140deg,#d4e9f1 0%,#ededeb 68%); }
 .hero-grid { display: grid; grid-template-columns: minmax(0,1.08fr) minmax(270px,.92fr); gap: 4rem; align-items: center; }
 .eyebrow { display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .75rem; border: 1px solid #b5d4e0; border-radius: 999px; color: var(--brand-dark); background: rgba(255,255,255,.82); font-size: .82rem; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; }
 .eyebrow:before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
@@ -46,7 +46,7 @@ h3 { font-size: 1.24rem; }
 .button.secondary { color: var(--brand-dark); background: #fff; border-color: var(--line); box-shadow: none; }
 .button.secondary:hover { background: var(--soft); }
 .microcopy { margin: .75rem 0 0; color: var(--muted); font-size: .9rem; }
-.hero-card { padding: 1.25rem; border: 1px solid rgba(213,225,229,.95); border-radius: var(--radius); background: rgba(255,255,255,.82); box-shadow: var(--shadow); }
+.hero-card { padding: 1.25rem; border: 1px solid rgba(185,203,209,.95); border-radius: var(--radius); background: rgba(255,255,255,.82); box-shadow: var(--shadow); }
 .device-card { position: relative; min-height: 365px; padding: 2rem; overflow: hidden; border-radius: 18px; background: linear-gradient(145deg,#18465d,#1f76a4); color: #fff; }
 .device-card:after { content: ""; position: absolute; width: 240px; height: 240px; right: -70px; top: -70px; border: 34px solid rgba(134,197,227,.72); border-radius: 50%; }
 .device-card .chip { position: relative; z-index: 1; width: 106px; height: 137px; margin: 1rem auto 2.5rem; border-radius: 16px; background: linear-gradient(140deg,#d4e9f1,#86c5e3); box-shadow: 0 16px 25px rgba(0,0,0,.2); }
