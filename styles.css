@@ -33,9 +33,7 @@ a:hover { color: var(--brand); }
 .header-inner, .footer-inner, .container { width: min(calc(100% - 2.5rem), var(--max)); margin: 0 auto; }
 .header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: inline-flex; align-items: center; gap: .7rem; min-width: 0; color: var(--ink); text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
-.brand-wordmark { width: clamp(78px, 16vw, 108px); height: clamp(44px, 7vw, 54px); max-width: 108px; max-height: 54px; flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--brand-dark); font-family: var(--font-display); font-weight: 700; line-height: .78; letter-spacing: -.08em; text-transform: lowercase; }
-.brand-wordmark-top { color: var(--brand); font-size: clamp(1.1rem, 3vw, 1.35rem); }
-.brand-wordmark-bottom { color: var(--brand-dark); font-size: clamp(1.2rem, 3.5vw, 1.6rem); letter-spacing: -.11em; }
+.brand-logo { width: clamp(88px, 16vw, 112px); height: clamp(46px, 7vw, 58px); max-width: 112px; max-height: 58px; flex: 0 0 auto; display: block; object-fit: contain; object-position: center; border-radius: 0; background: transparent; }
 .brand-label { min-width: 0; color: var(--brand-dark); font-family: var(--font-display); font-size: clamp(.88rem, 1.8vw, 1rem); font-weight: 700; letter-spacing: -.02em; white-space: nowrap; }
 .brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; color: #fff; background: var(--brand); box-shadow: 0 8px 20px rgba(31,118,164,.25); }
 .brand b { color: var(--brand-dark); }
@@ -103,7 +101,7 @@ h3 { font-size: 1.24rem; }
 .footer-links a { color: var(--muted); font-size: .92rem; text-decoration: none; }
 .footer-links a:hover { color: var(--brand-dark); }
 .small { font-size: .9rem; }
-@media (max-width: 800px) { .header-inner { align-items: flex-start; padding: .85rem 0; flex-direction: column; } .brand-wordmark { width: 88px; height: 48px; } .site-nav { justify-content: flex-start; gap: .75rem 1rem; } .hero { padding: 4.5rem 0 3.5rem; } .hero-grid { grid-template-columns: 1fr; gap: 2rem; } .device-card { min-height: 290px; } .cards,.steps,.check-grid { grid-template-columns: 1fr; } .callout { grid-template-columns: 1fr; } .footer-inner { flex-direction: column; } .footer-links { justify-content: flex-start; } }
+@media (max-width: 800px) { .header-inner { align-items: flex-start; padding: .85rem 0; flex-direction: column; } .brand-logo { width: 88px; height: 48px; } .site-nav { justify-content: flex-start; gap: .75rem 1rem; } .hero { padding: 4.5rem 0 3.5rem; } .hero-grid { grid-template-columns: 1fr; gap: 2rem; } .device-card { min-height: 290px; } .cards,.steps,.check-grid { grid-template-columns: 1fr; } .callout { grid-template-columns: 1fr; } .footer-inner { flex-direction: column; } .footer-links { justify-content: flex-start; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 
 .card .button { margin-top: 1rem; }
