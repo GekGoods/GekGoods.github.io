@@ -25,7 +25,7 @@ a:hover { color: var(--brand); }
 .header-inner, .footer-inner, .container { width: min(calc(100% - 2.5rem), var(--max)); margin: 0 auto; }
 .header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: inline-flex; align-items: center; gap: .7rem; min-width: 0; color: var(--ink); text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
-.brand-logo { width: clamp(88px, 16vw, 112px); height: clamp(46px, 7vw, 58px); max-width: 112px; max-height: 58px; flex: 0 0 auto; display: block; object-fit: contain; object-position: center; border-radius: 0; background: transparent; }
+.brand-logo { width: clamp(88px, 16vw, 112px); height: clamp(46px, 7vw, 58px); max-width: 112px; max-height: 58px; flex: 0 0 auto; display: block; object-fit: cover; object-position: center; border-radius: 0; background: transparent; mix-blend-mode: multiply; }
 .brand-label { min-width: 0; color: var(--brand-dark); font-family: var(--font-display); font-size: clamp(.88rem, 1.8vw, 1rem); font-weight: 700; letter-spacing: -.02em; white-space: nowrap; }
 .brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; color: #fff; background: var(--brand); box-shadow: 0 8px 20px rgba(31,118,164,.25); }
 .brand b { color: var(--brand-dark); }
