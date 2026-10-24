@@ -98,3 +98,7 @@ h3 { font-size: 1.24rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 
 .card .button { margin-top: 1rem; }
+
+.guide-image { max-width: 760px; margin: 2.5rem auto 0; padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); box-shadow: 0 8px 25px rgba(24,70,93,.05); }
+.guide-image img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.guide-image figcaption { margin-top: .8rem; color: var(--muted); font-size: .9rem; text-align: center; }
